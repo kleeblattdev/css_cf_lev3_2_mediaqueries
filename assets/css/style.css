@@ -44,6 +44,10 @@ h1{
     padding: 3vh 0;
 }
 
+.headerImg{
+        
+}
+
 header h2{
     color: #DF8480;
     text-align: right;
@@ -136,26 +140,35 @@ footer p{
 
 @media only screen and (min-width: 992px){
 
-    /* HEADER STYLE */
+    /* HEADER STYLE LARGE */
 
     header{
-        background-size: contain;
+        background-size: 50%;
         background-position: right;
     }
+
     header h1{
         font-size: 2rem;
-        padding: 0;
+        height: 10vh;
+        background-color: #ffffff;
     }
 
-    header h2{
-        color: #ffffff;
+    .pinkBgLarge{
         background-color: #DF8480;
-        font-size: 2.5rem;
-        padding: 30vh 30vw;
+        height: 50vw;
+        width: 50%;
         margin: 0;
     }
 
-/*  MAIN STYLE */
+    .pinkBgLarge h2{
+        color: #ffffff;
+        font-size: 2.5rem;
+        text-align: right;
+        width: 200px;
+        margin: 0 5vw 0 35vw;
+    }
+
+/*  MAIN STYLE LARGE*/
 
     .intersection{
         font-size: 3rem;
@@ -206,7 +219,7 @@ footer p{
         padding: 40px;
     }
 
-    /* FOOTER STYLE */
+    /* FOOTER STYLE LARGE */
 
     .mailButton{
         width: 400px;
@@ -231,5 +244,6 @@ footer p{
     }
 
     .socialLinksLarge p{
+        font-size: 1.5rem;
     }
 }
