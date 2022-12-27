@@ -136,4 +136,100 @@ footer p{
 
 @media only screen and (min-width: 992px){
 
+    /* HEADER STYLE */
+
+    header{
+        background-size: contain;
+        background-position: right;
+    }
+    header h1{
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    header h2{
+        color: #ffffff;
+        background-color: #DF8480;
+        font-size: 2.5rem;
+        padding: 30vh 30vw;
+        margin: 0;
+    }
+
+/*  MAIN STYLE */
+
+    .intersection{
+        font-size: 3rem;
+        color: #DF8480;
+        background-color: #ffffff;
+        height: 20vh;
+    }
+
+    .instructions{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .instructions article{
+        width: 220px;
+        height: 220px;
+        border-radius: 8px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .instructions article h2{
+        margin: 10px;
+    }
+
+    .instructions article p{
+        padding: 30px;
+    }
+
+    .mainSectionLarge{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mainSectionLarge section{
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+    }
+
+    .dogcookie{
+        background-position: center;
+    }
+
+    .reasons{
+        background-color:#DF8480;
+        color: #ffffff;
+        text-align: center;
+        padding: 40px;
+    }
+
+    /* FOOTER STYLE */
+
+    .mailButton{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .signupButton{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 20vh;
+    }
+
+    .socialLinksLarge{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    .socialLinksLarge a{
+        margin: 20px;
+    }
+
+    .socialLinksLarge p{
+    }
 }
